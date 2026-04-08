@@ -1,0 +1,20 @@
+{
+  "input_video": "zoom_in_camera_change.mp4",
+  "gpu_requested": "A100-80GB",
+  "gpu_reported": "NVIDIA A100 80GB PCIe",
+  "num_frames": 244,
+  "resolution": "1920x1080",
+  "video_duration_seconds": 9.76,
+  "source_fps": 25.0,
+  "metrics": {
+    "pipeline_throughput_fps": 0.921,
+    "total_processing_seconds": 265.045,
+    "realtime_factor_rtf": 27.156,
+    "meets_realtime_constraint": false,
+    "mean_inference_ms_per_frame": 730.256,
+    "p50_inference_ms_per_frame": 684.741,
+    "p95_inference_ms_per_frame": 1358.421,
+    "std_inference_ms_per_frame": 565.931,
+    "mean_end_to_end_latency_ms": 109739.409
+  }
+}

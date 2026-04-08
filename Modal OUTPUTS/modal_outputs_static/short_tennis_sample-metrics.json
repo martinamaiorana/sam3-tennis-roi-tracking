@@ -1,0 +1,20 @@
+{
+  "input_video": "short_tennis_sample.mp4",
+  "gpu_requested": "A100-80GB",
+  "gpu_reported": "NVIDIA A100 80GB PCIe",
+  "num_frames": 224,
+  "resolution": "1920x1080",
+  "video_duration_seconds": 7.467,
+  "source_fps": 30.0,
+  "metrics": {
+    "pipeline_throughput_fps": 1.001,
+    "total_processing_seconds": 223.78,
+    "realtime_factor_rtf": 29.971,
+    "meets_realtime_constraint": false,
+    "mean_inference_ms_per_frame": 634.86,
+    "p50_inference_ms_per_frame": 599.797,
+    "p95_inference_ms_per_frame": 981.752,
+    "std_inference_ms_per_frame": 636.483,
+    "mean_end_to_end_latency_ms": 90387.188
+  }
+}
