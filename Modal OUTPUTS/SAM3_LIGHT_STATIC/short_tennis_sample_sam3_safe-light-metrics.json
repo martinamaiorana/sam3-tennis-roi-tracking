@@ -1,0 +1,28 @@
+{
+  "input_video": "short_tennis_sample.mp4",
+  "mode": "LIGHT_ONLINE",
+  "gpu_requested": "B200",
+  "gpu_reported": "NVIDIA B200",
+  "num_frames": 224,
+  "resolution": "1920x1080",
+  "video_duration_seconds": 7.467,
+  "source_fps": 30.0,
+  "similarity_threshold": 0.85,
+  "num_rerun_frames": 1,
+  "rerun_frame_indices": [
+    0
+  ],
+  "metrics": {
+    "pipeline_throughput_fps": 2.136,
+    "total_processing_seconds": 104.851,
+    "realtime_factor_rtf": 14.043,
+    "meets_realtime_constraint": false,
+    "mean_inference_ms_per_frame": 73.013,
+    "p50_inference_ms_per_frame": 0.0,
+    "p95_inference_ms_per_frame": 0.0,
+    "std_inference_ms_per_frame": 1090.321,
+    "mean_end_to_end_latency_ms": 327.961,
+    "p95_end_to_end_latency_ms": 266.24,
+    "mean_similarity_score": 0.9869
+  }
+}

@@ -244,8 +244,8 @@ def segment_video(
         output = frame_outputs[index]
         detections = from_sam(output)
 
-        annotated = annotate(frame, detections, text=None) # remove Labels in the output video
-        # annotated = annotate(frame, detections, prompt_text) # with ID labels on the output video
+        # annotated = annotate(frame, detections, text=None) # remove Labels in the output video
+        annotated = annotate(frame, detections, prompt_text) # with ID labels on the output video
 
         frame_output_time_s[index] = time.perf_counter()
 

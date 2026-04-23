@@ -1,0 +1,20 @@
+{
+  "input_video": "zoom_in_camera_change.mp4",
+  "gpu_requested": "A100-80GB",
+  "gpu_reported": "NVIDIA A100-SXM4-80GB",
+  "num_frames": 244,
+  "resolution": "1920x1080",
+  "video_duration_seconds": 9.76,
+  "source_fps": 25.0,
+  "metrics": {
+    "pipeline_throughput_fps": 0.84,
+    "total_processing_seconds": 290.456,
+    "realtime_factor_rtf": 29.76,
+    "meets_realtime_constraint": false,
+    "mean_inference_ms_per_frame": 652.481,
+    "p50_inference_ms_per_frame": 569.3,
+    "p95_inference_ms_per_frame": 1303.856,
+    "std_inference_ms_per_frame": 579.08,
+    "mean_end_to_end_latency_ms": 113882.613
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "input_video": "moving_camera.mp4",
+  "gpu_requested": "A100-80GB",
+  "gpu_reported": "NVIDIA A100 80GB PCIe",
+  "num_frames": 243,
+  "resolution": "1920x1080",
+  "video_duration_seconds": 9.72,
+  "source_fps": 25.0,
+  "metrics": {
+    "pipeline_throughput_fps": 1.038,
+    "total_processing_seconds": 234.151,
+    "realtime_factor_rtf": 24.09,
+    "meets_realtime_constraint": false,
+    "mean_inference_ms_per_frame": 724.624,
+    "p50_inference_ms_per_frame": 677.383,
+    "p95_inference_ms_per_frame": 1254.589,
+    "std_inference_ms_per_frame": 541.348,
+    "mean_end_to_end_latency_ms": 99737.972
+  }
+}

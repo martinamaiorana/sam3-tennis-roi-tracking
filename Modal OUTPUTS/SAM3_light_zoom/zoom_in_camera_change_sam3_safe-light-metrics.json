@@ -1,0 +1,29 @@
+{
+  "input_video": "zoom_in_camera_change.mp4",
+  "mode": "LIGHT_ONLINE",
+  "gpu_requested": "B200",
+  "gpu_reported": "NVIDIA B200",
+  "num_frames": 244,
+  "resolution": "1920x1080",
+  "video_duration_seconds": 9.76,
+  "source_fps": 25.0,
+  "similarity_threshold": 0.85,
+  "num_rerun_frames": 2,
+  "rerun_frame_indices": [
+    0,
+    206
+  ],
+  "metrics": {
+    "pipeline_throughput_fps": 2.326,
+    "total_processing_seconds": 104.922,
+    "realtime_factor_rtf": 10.75,
+    "meets_realtime_constraint": false,
+    "mean_inference_ms_per_frame": 79.314,
+    "p50_inference_ms_per_frame": 0.0,
+    "p95_inference_ms_per_frame": 0.0,
+    "std_inference_ms_per_frame": 1036.549,
+    "mean_end_to_end_latency_ms": 303.48,
+    "p95_end_to_end_latency_ms": 269.166,
+    "mean_similarity_score": 0.9599
+  }
+}
